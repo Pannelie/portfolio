@@ -1,0 +1,20 @@
+.hero {
+  background-color: rgb(202, 166, 112);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* tre kolumner som delar utrymmet lika */
+  grid-template-rows: repeat(2, 200px); /* två rader som är 100px höga */
+  gap: 10px;
+  width: 80%;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.hero__title {
+  grid-column: 1 / 3;
+  font-size: 4rem;
+}
+
+.hero__text {
+  grid-column: 1 / 3;
+  font-size: 2rem;
+}

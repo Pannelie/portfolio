@@ -1,0 +1,10 @@
+[
+  {
+    "id": "React-app",
+    "name": "Where It´s @ app",
+    "description": "React app för att se tillgängliga events, köpa biljetter samt se tidigare köpta biljetter. Varje biljett har unik barcode med tillhörande kod och plats.",
+    "image": "/portfolio/assets/images/logo.png",
+    "github": "https://github.com/Pannelie/react-exam",
+    "live": "https://pannelie.github.io/react-exam"
+  }
+]

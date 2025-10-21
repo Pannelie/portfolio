@@ -1,0 +1,25 @@
+.cv-item {
+  /* background-color: var(--main-blue); */
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  font-size: 1rem;
+  /* color: var(--light-color); */
+  padding: 0.2rem;
+  text-align: left;
+}
+
+.cv-item__title {
+  font-weight: bold;
+}
+
+.cv-item__subtitle {
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+.cv-item__years {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.7);
+}

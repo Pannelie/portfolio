@@ -1,0 +1,20 @@
+.hero-image {
+  aspect-ratio: 1 / 1;
+  width: 100%;
+  border-radius: 50%; /* gör bilden rund */
+  object-fit: cover; /* ser till att bilden fyller cirkeln */
+  object-position: 30% 25%;
+  border: 1rem solid var(--body-background); /* valfri kant */
+}
+
+@media (max-width: 1000px) {
+  .hero-image {
+    border: 0.5rem solid var(--body-background); /* valfri kant */
+  }
+}
+
+@media (max-width: 500px) {
+  /* .hero-image {
+    border: 0.5rem solid var(--body-background); /* valfri kant 
+  } */
+}
